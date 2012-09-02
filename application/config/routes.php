@@ -41,6 +41,8 @@
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
+$route['pages/(:any)'] = 'pages/view/$1';
+$route['pages'] = 'pages/view';
 $route['jquery_test'] = 'jquery_test';
 $route['bootstrap_test'] = 'bootstrap_test';
 $route['bootstrap_hero'] = 'bootstrap_hero';
@@ -48,11 +50,7 @@ $route['bootstrap_fluid'] = 'bootstrap_fluid';
 $route['bootstrap_starter_template'] = 'bootstrap_starter_template';
 $route['bootstrap_home'] = 'bootstrap_home';
 
-
-
-
-$route['(:any)'] = 'pages/view/$1';
-$route['default_controller'] = 'pages/view';
+$route['default_controller'] = 'home';
 
 
 /* End of file routes.php */
