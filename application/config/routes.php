@@ -46,6 +46,8 @@ $route['bootstrap_test'] = 'bootstrap_test';
 $route['bootstrap_hero'] = 'bootstrap_hero';
 $route['bootstrap_fluid'] = 'bootstrap_fluid';
 $route['bootstrap_starter_template'] = 'bootstrap_starter_template';
+$route['bootstrap_home'] = 'bootstrap_home';
+
 
 
 
