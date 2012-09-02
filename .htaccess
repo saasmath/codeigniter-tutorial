@@ -3,7 +3,7 @@ AddDefaultCharset UTF-8
     RewriteEngine On
   
     # my url is http://localhost/~ipod/codeigniter-tutorial
-    //RewriteBase /~ipod/codeigniter-tutorial/
+    #RewriteBase /~ipod/codeigniter-tutorial/
     # set your own use this if not in a subdirectory
     RewriteBase /
 
